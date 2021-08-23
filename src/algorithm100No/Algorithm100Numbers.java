@@ -2,6 +2,7 @@ package algorithm100No;
 
 import algorithm100No.algorithmNo001.AlgorithmNo1;
 import algorithm100No.algorithmNo002.AlgorithmNo002;
+import algorithm100No.algorithmNo003.AlgorithmNo003;
 
 public class Algorithm100Numbers {
 	public static void main(String[] args) {
@@ -12,5 +13,8 @@ public class Algorithm100Numbers {
 		// 2번문제 피보나치 수열을 출력하시오
 		//AlgorithmNo002.fibonacci_me();
 		//AlgorithmNo002.fibonacci_jins();
+		
+		AlgorithmNo003.choibinsu_me();
+		//AlgorithmNo003.choibinsu_jins();
 	}
 }
