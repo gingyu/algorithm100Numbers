@@ -15,25 +15,43 @@ import java.util.Scanner;
 public class AlgorithmNo003 {
 	
 	public static void choibinsu_me() {
-		//int[] arr = {1,2,2,3,1,4,2,2,4,3,5,3,2};
-		int[] arr = {1,2,2,3,1,4,2,2,4,3};
+		int[] arr = {1,2,2,3,1,4,2,2,4,3,5,3,2};
+//		int[] arr = {111,22,22,33,111,222,32,32,222,33,222,22,22};
+//		int[] arr = {1,2,1,2,3,4,2,2,4,5,2};
 		Arrays.sort(arr);
 		
 		List<Choibinsu> list = new ArrayList<Choibinsu>();
 		int count = 1;
 		
-		for(int i = 0; i < arr.length; i++) {
+		for (int idx : arr) {
+			System.out.print(idx + " ");
+		}
+		
+		System.out.println();
+		
+		for (int i = 0; i < arr.length; i++) {
+			Choibinsu cbs = null;
 			
-			if(i < arr.length-1) {
-				if(arr[i] == arr[i+1]) {
+			if(i == arr.length-1){
+				cbs = new Choibinsu(arr[i], count);
+				list.add(cbs);
+			} else {
+				if (arr[i] == arr[i+1]) {
 					count++;
 				} else {
-					Choibinsu cbs = new Choibinsu(arr[i-1], count);
-					list.add(cbs);
-					count = 1;
 					
+					if (count == 1) {
+						cbs = new Choibinsu(arr[i], count);
+						list.add(cbs);
+					} else {
+						cbs = new Choibinsu(i == 0 ? arr[i] : arr[i-1], count);
+						list.add(cbs);
+						count = 1;
+					}
 				}
 			}
+			
+			
 		}
 		
 		for(Choibinsu cbs : list) {
@@ -42,12 +60,15 @@ public class AlgorithmNo003 {
 		
 		System.out.println();
 		
-		int bigNumber = list.get(1).getNumberCount();
-		for(int i = 1; i < list.size(); i++) {
-			bigNumber = bigNumber < list.get(i-1).getNumberCount()
-					? i-1
-					: bigNumber;
+		
+		int[] tmpArr = new int[list.size()];
+		
+		for(int i = 0; i < list.size(); i++) {
+			tmpArr[i] = list.get(i).getNumberCount();
 		}
+		
+		Arrays.sort(tmpArr);
+		int bigNumber = tmpArr[tmpArr.length-1];
 		
 		for(int i = 0; i < list.size(); i++) {
 			if(list.get(i).getNumberCount() == bigNumber) {
@@ -60,6 +81,7 @@ public class AlgorithmNo003 {
 		Scanner scan = new Scanner(System.in);
 		
 		int[] inputNum = new int[10];
+		
 		for(int i = 0; i < 10; i++) {
 			inputNum[i] = scan.nextInt();
 		}
