@@ -2,6 +2,7 @@ package algorithm100No;
 
 import java.util.Arrays;
 
+import algorithm100No.AlgorithmNo005.AlgorithmNo005;
 import algorithm100No.algorithmNo003.Algorithm003_1;
 import algorithm100No.algorithmNo003.Tree;
 import algorithm100No.algorithmNo004.AlgorithmNo004;
@@ -37,8 +38,13 @@ public class Algorithm100Numbers {
 //		 tree.searchBTree(tree.root, 2);
 		 
 		 // 4번문제 10진수를 2진수로 변환하시오
-		 System.out.println(AlgorithmNo004.decimalCastBinary(19));
-		 AlgorithmNo004.decimalCastBinary_jins(19);
+//		 System.out.println(AlgorithmNo004.decimalCastBinary(19));
+//		 AlgorithmNo004.decimalCastBinary_jins(19);
 		 
+		 // 5번문제 대소문자 변환
+		 System.out.println(AlgorithmNo005.castAlpabet("helloWorlD"));
+		 AlgorithmNo005.castAlpabet_jins("helloWorlD");
+		 
+
 	}
 }
