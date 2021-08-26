@@ -4,6 +4,7 @@ import java.util.Arrays;
 
 import algorithm100No.algorithmNo003.Algorithm003_1;
 import algorithm100No.algorithmNo003.Tree;
+import algorithm100No.algorithmNo004.AlgorithmNo004;
 
 public class Algorithm100Numbers {
 	public static void main(String[] args) {
@@ -21,19 +22,23 @@ public class Algorithm100Numbers {
 		
 		
 		// 3-1 이진탐색알고리즘 구현하기
-		 int[] a1 = {8,3,65,21,62,78,4,31,25};
-		 int[] a2 = {87,7,85,3,6,21,43,5,2,76,24};
-		 int[] a3 = {0,1,2,3,4,5,6,7,8,9};
+//		 int[] a1 = {8,3,65,21,62,78,4,31,25};
+//		 int[] a2 = {87,7,85,3,6,21,43,5,2,76,24};
+//		 int[] a3 = {0,1,2,3,4,5,6,7,8,9};
 		 
 		 // 이진탐색을 위해 원소들을 순차정렬 시킨다.
-		 Arrays.sort(a1);
-		 Arrays.sort(a2);
+//		 Arrays.sort(a1);
+//		 Arrays.sort(a2);
 		 //System.out.println("총 탐색횟수: " + Algorithm003_1.binarySearch(a1, 3));
 		 //System.out.println("총 탐색횟수: " + Algorithm003_1.binarySearch(a2, 87));
 		 
-		 Tree tree = new Tree();
-		 tree.makeTree(a3);
-		 tree.searchBTree(tree.root, 2);
+//		 Tree tree = new Tree();
+//		 tree.makeTree(a3);
+//		 tree.searchBTree(tree.root, 2);
+		 
+		 // 4번문제 10진수를 2진수로 변환하시오
+		 System.out.println(AlgorithmNo004.decimalCastBinary(19));
+		 AlgorithmNo004.decimalCastBinary_jins(19);
 		 
 	}
 }
