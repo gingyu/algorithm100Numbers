@@ -3,6 +3,7 @@ package algorithm100No;
 import java.util.Arrays;
 
 import algorithm100No.AlgorithmNo005.AlgorithmNo005;
+import algorithm100No.AlgorithmNo006.AlgorithmNo006;
 import algorithm100No.algorithmNo003.Algorithm003_1;
 import algorithm100No.algorithmNo003.Tree;
 import algorithm100No.algorithmNo004.AlgorithmNo004;
@@ -42,9 +43,13 @@ public class Algorithm100Numbers {
 //		 AlgorithmNo004.decimalCastBinary_jins(19);
 		 
 		 // 5번문제 대소문자 변환
-		 System.out.println(AlgorithmNo005.castAlpabet("helloWorlD"));
-		 AlgorithmNo005.castAlpabet_jins("helloWorlD");
-		 
+//		 System.out.println(AlgorithmNo005.castAlpabet("helloWorlD"));
+//		 AlgorithmNo005.castAlpabet_jins("helloWorlD");
+		
+		// 6번문제 입력된 두수의 최대 공약수를 구하시오 (12, 18)
+		int[] input = {12, 18};
+		System.out.println(AlgorithmNo006.solution(input));
+		 AlgorithmNo006.solution_jins();
 
 	}
 }
