@@ -4,6 +4,7 @@ import java.util.Arrays;
 
 import algorithm100No.AlgorithmNo005.AlgorithmNo005;
 import algorithm100No.AlgorithmNo006.AlgorithmNo006;
+import algorithm100No.AlgorithmNo007.AlgorithmNo007;
 import algorithm100No.algorithmNo003.Algorithm003_1;
 import algorithm100No.algorithmNo003.Tree;
 import algorithm100No.algorithmNo004.AlgorithmNo004;
@@ -47,9 +48,13 @@ public class Algorithm100Numbers {
 //		 AlgorithmNo005.castAlpabet_jins("helloWorlD");
 		
 		// 6번문제 입력된 두수의 최대 공약수를 구하시오 (12, 18)
-		int[] input = {12, 18};
-		System.out.println(AlgorithmNo006.solution(input));
-		 AlgorithmNo006.solution_jins();
+//		int[] input = {12, 18};
+//		System.out.println(AlgorithmNo006.solution(input));
+//		 AlgorithmNo006.solution_jins();
+		
+		// 7번문제 입력된 수가 소수인지 판별하시오.
+		AlgorithmNo007.solution(109);
+		AlgorithmNo007.solution_jins();
 
 	}
 }
