@@ -10,6 +10,7 @@ import algorithm100No.AlgorithmNo009.AlgorithmNo009;
 import algorithm100No.AlgorithmNo010.AlgorithmNo010;
 import algorithm100No.AlgorithmNo010.AlgorithmNo011;
 import algorithm100No.AlgorithmNo010.AlgorithmNo012;
+import algorithm100No.AlgorithmNo010.AlgorithmNo013;
 import algorithm100No.algorithmNo003.Algorithm003_1;
 import algorithm100No.algorithmNo003.Tree;
 import algorithm100No.algorithmNo004.AlgorithmNo004;
@@ -77,8 +78,12 @@ public class Algorithm100Numbers {
 //		AlgorithmNo011.AlgorithmNo011_jins();
 		
 		// 12번문제 숫자 사각형3
-		AlgorithmNo012.AlgorithmNo012();
-		AlgorithmNo012.AlgorithmNo012_jins();
+//		AlgorithmNo012.AlgorithmNo012();
+//		AlgorithmNo012.AlgorithmNo012_jins();
+		
+		// 13번문제 숫자 사각형4
+		//AlgorithmNo013.AlgorithmNo013();
+		AlgorithmNo013.AlgorithmNo013_jins();
 	}
 
 	
