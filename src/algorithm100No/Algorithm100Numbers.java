@@ -6,6 +6,10 @@ import algorithm100No.AlgorithmNo005.AlgorithmNo005;
 import algorithm100No.AlgorithmNo006.AlgorithmNo006;
 import algorithm100No.AlgorithmNo007.AlgorithmNo007;
 import algorithm100No.AlgorithmNo008.AlgorithmNo008;
+import algorithm100No.AlgorithmNo009.AlgorithmNo009;
+import algorithm100No.AlgorithmNo010.AlgorithmNo010;
+import algorithm100No.AlgorithmNo010.AlgorithmNo011;
+import algorithm100No.AlgorithmNo010.AlgorithmNo012;
 import algorithm100No.algorithmNo003.Algorithm003_1;
 import algorithm100No.algorithmNo003.Tree;
 import algorithm100No.algorithmNo004.AlgorithmNo004;
@@ -57,7 +61,25 @@ public class Algorithm100Numbers {
 //		AlgorithmNo007.solution(109);
 //		AlgorithmNo007.solution_jins();
 		
-		System.out.println(AlgorithmNo008.fatorial(5));
-
+		// 8번문제 팩토리얼 
+//		System.out.println(AlgorithmNo008.fatorial(5));
+		
+		// 9번문제 입력된 수의 각자리수의 합을 구하시오
+//		System.out.println(AlgorithmNo009.AlgorithmNo009(1242));
+//		AlgorithmNo009.AlgorithmNo009_jins();
+		
+		// 10번문제 숫자 사각형1 (입력된 수 만큼의 n행 n열을 가지는 사각형 출력)
+//		AlgorithmNo010.AlgorithmNo010();
+//		AlgorithmNo010.AlgorithmNo010_jins();
+		
+		// 11번문제 숫자 사각형2
+//		AlgorithmNo011.AlgorithmNo011();
+//		AlgorithmNo011.AlgorithmNo011_jins();
+		
+		// 12번문제 숫자 사각형3
+		AlgorithmNo012.AlgorithmNo012();
+		AlgorithmNo012.AlgorithmNo012_jins();
 	}
+
+	
 }
