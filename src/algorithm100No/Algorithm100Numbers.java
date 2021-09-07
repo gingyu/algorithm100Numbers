@@ -5,6 +5,7 @@ import java.util.Arrays;
 import algorithm100No.AlgorithmNo005.AlgorithmNo005;
 import algorithm100No.AlgorithmNo006.AlgorithmNo006;
 import algorithm100No.AlgorithmNo007.AlgorithmNo007;
+import algorithm100No.AlgorithmNo008.AlgorithmNo008;
 import algorithm100No.algorithmNo003.Algorithm003_1;
 import algorithm100No.algorithmNo003.Tree;
 import algorithm100No.algorithmNo004.AlgorithmNo004;
@@ -53,8 +54,10 @@ public class Algorithm100Numbers {
 //		 AlgorithmNo006.solution_jins();
 		
 		// 7번문제 입력된 수가 소수인지 판별하시오.
-		AlgorithmNo007.solution(109);
-		AlgorithmNo007.solution_jins();
+//		AlgorithmNo007.solution(109);
+//		AlgorithmNo007.solution_jins();
+		
+		System.out.println(AlgorithmNo008.fatorial(5));
 
 	}
 }
