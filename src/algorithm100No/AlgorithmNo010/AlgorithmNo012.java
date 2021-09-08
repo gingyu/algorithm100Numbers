@@ -12,7 +12,7 @@ package algorithm100No.AlgorithmNo010;
  */
 public class AlgorithmNo012 {
 
-	public static void AlgorithmNo012() {
+	public static void algorithmNo012() {
 		int inputNum = 4;
 		int[][] line = new int[inputNum][inputNum];
 		
@@ -31,7 +31,7 @@ public class AlgorithmNo012 {
 		}
 	}
 	
-	public static void AlgorithmNo012_jins() {
+	public static void algorithmNo012_jins() {
 		int n = 4;
 		int arr[][] = new int[n][n];
 		

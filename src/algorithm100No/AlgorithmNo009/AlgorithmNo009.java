@@ -10,7 +10,7 @@ package algorithm100No.AlgorithmNo009;
  */
 public class AlgorithmNo009 {
 
-	public static int AlgorithmNo009(int input) {
+	public static int algorithmNo009(int input) {
 		int answer = 0;
 		String[] arr = new String[4];
 		String str = String.valueOf(input);
@@ -24,7 +24,7 @@ public class AlgorithmNo009 {
 		return answer;
 	}
 	
-	public static void AlgorithmNo009_jins() {
+	public static void algorithmNo009_jins() {
 		int inputNum = 1242;
 		int accSum = 0;
 		
